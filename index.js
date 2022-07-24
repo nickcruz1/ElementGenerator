@@ -20,3 +20,10 @@ let generateHeading = () => {
     generateBtn.innerHTML = `<div class="btn btn-success text-light border-dark w-50 d-block m-auto">Button</button>`;
     
   }
+
+    let generateParagraph = () => {
+    let generateParagraph = document.querySelector("#generateParagraph");
+    
+    generateParagraph.innerHTML = `<p class="text-center pt-2 pb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem dicta atque voluptate ea explicabo libero eligendi commodi sed sit pariatur illum beatae vel modi quaerat, in nemo laudantium incidunt?</p>`
+    
+  }
