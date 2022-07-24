@@ -39,3 +39,14 @@ let generateHeading = () => {
     `;
     
   }
+      
+       let generateShapes = () => {
+    let generateShapes = document.getElementById("generateShapes");
+    
+    generateShapes.innerHTML = `<div class="d-flex justify-content-center">
+    <i class="fa-solid fa-shapes text-danger fs-5 m-1"></i>
+    <i class="fa-solid fa-shapes text-info fs-5 m-1"></i>
+    <i class="fa-solid fa-shapes text-primary fs-5 m-1"></i>
+    </div>`
+    
+  }
