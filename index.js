@@ -129,3 +129,14 @@ let generateHeading = () => {
     `;
     
   }
+        
+   let resetAll = () => {
+ let resetAll = document.getElementById("resetAll");
+ let allElements = document.querySelectorAll(".element");
+  
+  for(let i = 0; i < allElements.length; i++) {
+    allElements[i].innerHTML = "";
+  }
+  
+  
+}     
